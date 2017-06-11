@@ -1,0 +1,250 @@
+body {
+    background-color: #eeeeee;
+    color: rgba(118, 118, 118, 1.0);
+    font-family: 'proxima-nova', "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding: 0px !important;
+    margin: 0px !important;
+    line-height: 23px;
+    font-style: normal;
+    font-weight: normal;
+    min-height: 100%;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+header {
+  width: 100%;
+  min-height: 600px;
+    background-image: url("https://social-betting.s3.amazonaws.com/images/sportsbetting.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+    /*background-color: lightblue;*/
+  text-align: center;
+}
+
+label {
+    font-weight: normal !important;
+}
+
+.flex-row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: 350px;
+    /*-webkit-justify-content: space-between;*/
+    /*justify-content: space-between;*/
+}
+
+.home-header {
+    font-size: 60px;
+}
+
+.flex-column {
+    width: 48%;
+}
+
+.trending .flex-column {
+    width: 20%;
+}
+
+.flex-container {
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-container .flex-item {
+    text-align: center;
+}
+
+.profile .flex-row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: nowrap;
+    flex-flow: nowrap;
+    height: 350px;
+    margin-bottom: 5px;
+    /*-webkit-justify-content: space-around;*/
+    /*justify-content: space-between;*/
+}
+
+/* start */
+
+.logo-title {
+    font-size: 21px;
+    color: white;
+    font-weight: 600;
+}
+
+#bigbox {
+    margin-top: 4em;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -webkit-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -moz-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -o-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -ms-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+}
+
+
+.box>.title-row {
+    position: absolute;
+    top: 2em;
+    left: 3em;
+    margin: 10px;
+}
+
+.box .title-row .location-name {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box .facility-description {
+    position: absolute;
+    margin: 10px;
+    width: 75%;
+    color: white;
+    top: 6em;
+    left: 3em;
+}
+
+.box .bookings {
+    position: absolute;
+    text-align: center;
+    left: 2em;
+    bottom: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.box .reviews {
+    position: absolute;
+    text-align: center;
+    right: 3em;
+    bottom: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+/*filters*/
+
+.location-type-filter-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.checkBoxForm {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.class-type-filter {
+    padding: 10px;
+
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -webkit-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -moz-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -o-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+    -ms-box-shadow: 0 1px 3px rgba(33,33,33,.2);
+}
+
+.class-type-filter p {
+    color: black;
+}
+
+.location-type-filter:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.location-type-filter:hover p {
+    color: white;
+}
+
+.location-description {
+    width: 100%;
+}
+
+.location-description p {
+    color: white;
+}
+
+/* checkboxes */
+
+.filter-type-box {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+
+.filter-type-box .filter {
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    padding: 2em;
+}
+
+.filter-location-box {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.filter-location-box .filter {
+    border-radius: 10px;
+    border: 2px solid lightblue;
+    padding: 2em;
+}
+
+
+#roof-stats {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+}
