@@ -8,7 +8,7 @@ chardet==2.0.1
 colorama==0.2.5
 configobj==4.7.2
 decorator==3.4.0
-djangorestframework==3.6.3
+djangorestframework==3.9.1
 duplicity==0.6.23
 foursquare==20130707
 html5lib==0.999
